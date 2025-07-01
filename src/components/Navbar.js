@@ -1,7 +1,8 @@
-import React,{useState} from 'react';
+import React,{useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import './Navbar.css';
-import {Button} from './Button';
+import {Button} from "./Button.js";
+
 
 
 
@@ -22,6 +23,10 @@ function Navbar(){
         
     };
     window.addEventListener('resize',showButton);
+
+    useEffect(()=>{
+        showButton()
+    },[]);
 
     return(
         <>
@@ -60,7 +65,7 @@ function Navbar(){
 
                 </li>
             </ul>
-          {button && <Button>SIGN UP</Button>}
+          {button && <Button buttonStyle>SIGN UP</Button>}
         </div>
         </nav>
         </>
