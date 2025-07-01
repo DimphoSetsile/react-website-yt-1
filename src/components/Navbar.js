@@ -1,5 +1,7 @@
-import React,{useState} from 'react'
-import {Link} from 'react-router-dom'
+import React,{useState} from 'react';
+import {Link} from 'react-router-dom';
+import './Navbar.css';
+
 
 
 function Navbar(){
@@ -15,32 +17,32 @@ function Navbar(){
             Travel <i classname='fab fa-typo3' />
             </Link>
             <div className='menu-icon' onClick={handleClick}>
-                <i className={click ? 'fas fa-times': 'fas fa-bars'} />
+                <i className={click ? 'fas fa-times': 'fas fa-bars'} > </i>
                 
             </div>
             <ul className={click ? 'nav-menu active': 'nav-menu'}>
                 <li className='nav-item'>
-                    <link to='/home' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
                      Home
-                    </link>
+                    </Link>
 
                 </li>
                 <li className='nav-item'>
-                    <link to='/sevices' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/sevices' className='nav-links' onClick={closeMobileMenu}>
                      services
-                    </link>
+                    </Link>
 
                 </li>
                 <li className='nav-item'>
-                    <link to='/products' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
                      Products
-                    </link>
+                    </Link>
 
                 </li>
                 <li className='nav-item'>
-                    <link to='/sign-up' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/sign-up' className='nav-links' onClick={closeMobileMenu}>
                      Sign up
-                    </link>
+                    </Link>
 
                 </li>
             </ul>
