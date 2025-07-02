@@ -13,34 +13,34 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/KIITF.jpg'
-              text='A young couple'
+              text='Keep it in the family by John Mars '
               label='Thriller'
-              path='/services'
+              path='/'
             />
             <CardItem
               src='images/TheTeacher.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              text='Frieda McFaddeen'
               label='Thriller'
-              path='/services'
+              path='/'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='images/TKWK.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              text='The kind worth killing by Peter Swanson'
+              label='Thriller'
               path='/services'
             />
             <CardItem
               src='images/Verity.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              text='Verity by colleen hover'
+              label='Thriller'
               path='/products'
             />
             <CardItem
               src='images/THousmaid.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              text='The housemaid by Freida McFadden'
+              label='Thriller'
               path='/sign-up'
             />
           </ul>
