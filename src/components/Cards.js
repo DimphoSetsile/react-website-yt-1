@@ -15,13 +15,13 @@ function Cards() {
               src='images/KIITF.jpg'
               text='Keep it in the family by John Mars '
               label='Thriller'
-              path='/'
+              path='/services'
             />
             <CardItem
               src='images/TheTeacher.jpg'
               text='Frieda McFaddeen'
               label='Thriller'
-              path='/'
+              path='/services'
             />
           </ul>
           <ul className='cards__items'>
@@ -35,13 +35,13 @@ function Cards() {
               src='images/Verity.jpg'
               text='Verity by colleen hover'
               label='Thriller'
-              path='/products'
+              path='/services'
             />
             <CardItem
-              src='images/THousmaid.jpg'
+              src='images/THousemaid.jpg'
               text='The housemaid by Freida McFadden'
               label='Thriller'
-              path='/sign-up'
+              path='/services'
             />
           </ul>
         </div>
